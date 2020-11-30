@@ -24,5 +24,6 @@ public class AllureListener implements ITestListener{
     @Override
     public void onTestFailure(ITestResult result) {
         saveFaliureScreenShot(driver);
+        saveTextLog(driver.getCurrentUrl());
     }
 }
