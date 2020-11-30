@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gigatron registration tests" thread-count="1">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="email" value="nekimail2338@gmail.com"/>
+    <parameter name="pass" value="test1234"/>
+    <test name="Register">
+        <classes>
+            <class name="test_classes.RegistrationGigatronTest"/>
+        </classes>
+    </test>
+</suite>

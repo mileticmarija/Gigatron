@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gigatron uporedi tests" thread-count="1">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="url" value="https://gigatron.rs/mobilni-telefoni-i-oprema"/>
+    <parameter name="url2" value="https://gigatron.rs/mobilni-telefoni-i-oprema/mobilni-telefoni"/>
+    <parameter name="url3" value="https://gigatron.rs/uporedi"/>
+    <parameter name="item1" value="1"/>
+    <parameter name="item2" value="2"/>
+
+    <test name="uporedi mobilne telefone">
+        <classes>
+            <class name="test_classes.GUporediTests"/>
+        </classes>
+    </test>
+</suite>
